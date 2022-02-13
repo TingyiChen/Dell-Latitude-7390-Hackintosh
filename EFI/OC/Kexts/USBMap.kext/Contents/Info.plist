@@ -33,7 +33,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>64:0:0</string>
+					<string>59:0:0</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
@@ -62,7 +62,7 @@
 					<key>SS01</key>
 					<dict>
 						<key>Comment</key>
-						<string>Right XHCI</string>
+						<string>Type-C XHCI</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -114,6 +114,15 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#port</key>
+						<data>
+						BAAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>HS03</key>
+					<dict>
 						<key>Comment</key>
 						<string>Camera</string>
 						<key>UsbConnector</key>
@@ -123,7 +132,7 @@
 						BQAAAA==
 						</data>
 					</dict>
-					<key>HS03</key>
+					<key>HS04</key>
 					<dict>
 						<key>Comment</key>
 						<string>Bluetooth</string>
@@ -134,7 +143,7 @@
 						BwAAAA==
 						</data>
 					</dict>
-					<key>HS04</key>
+					<key>HS05</key>
 					<dict>
 						<key>Comment</key>
 						<string>Touchscreen</string>
@@ -145,7 +154,7 @@
 						CAAAAA==
 						</data>
 					</dict>
-					<key>HS05</key>
+					<key>HS06</key>
 					<dict>
 						<key>Comment</key>
 						<string>Right EHCI</string>
@@ -155,6 +164,15 @@
 						<data>
 						CQAAAA==
 						</data>
+					</dict>
+					<key>HS07</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						CgAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS01</key>
 					<dict>
